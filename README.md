@@ -32,11 +32,12 @@ This project introduces Amazon Relational Database(RDS) , focusing on creating a
 - NB: type Y to accept the promptings
 - At the root you should run `rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2022`
 - Run `sudo yum install mysql-community-server`
-- run `sudo systemctl start mysqld.service `
-- run `sudo systemctl enable mysqld.service `
-- run `sudo systemctl status mysqld.service `
+- run `sudo systemctl start mysqld.service`
+- run `sudo systemctl enable mysqld.service`
+- run `sudo systemctl status mysqld.service`
 
 ## For connection to the database
+
 - run `mysql -h[endpoint] -P [port] -u [username] -p[password]`
 - NB: Remember to replace all the paramaters with your database details
 - If you want to see all the databases run `show databases;`
